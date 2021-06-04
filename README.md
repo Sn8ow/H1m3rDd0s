@@ -6,7 +6,7 @@ by overwhelming it with traffic from multiple sources. They target a wide variet
 from banks to news websites, and present a major challenge to making sure people can publish and access important information
 
 ### Download&Install
-``
+```
 ### git clone https://github.com/Sn8ow/H1m3rDd0s.git
 
 ### cd H1m3rDd0s
@@ -14,7 +14,7 @@ from banks to news websites, and present a major challenge to making sure people
 ### chmod +x h1m3r.py
 
 ### python h1m3r.py
-
+```
 ### ScreenShot 
 ![myscreen](https://user-images.githubusercontent.com/80784394/120862754-be5eb000-c589-11eb-9404-0e1f5a027ab2.png)
 
